@@ -15,10 +15,8 @@ function App(props) {
     newList.splice(key,1)
     setListTodo(newList)
   }
-  const deleteAllItems=(index)=>{
-       const secondNewList=[...listTodo]
-       secondNewList.splice(index,listTodo.length)
-       setListTodo(secondNewList)
+  const deleteAllItems=()=>{
+       setListTodo([])
   }
   return (
     <div className="main-container">
