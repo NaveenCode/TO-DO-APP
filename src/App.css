@@ -1,10 +1,9 @@
 *{
   margin: 0;
   padding: 0;
+   background-color: #333;
 }
-body{
-  background-color: #333;
-}
+
 .main-container{
   display: flex;
   justify-content: center;
@@ -26,6 +25,7 @@ body{
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
+  
 }
 .input-box-todo{
   margin-left: 10px;
@@ -38,6 +38,7 @@ body{
   outline: none;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: large;
+  background-color: white;
 }
 .add-btn{
   width:40px;
@@ -82,6 +83,7 @@ body{
 .icons{
   position: absolute;
   right: 10px;
+  background-color: blue;
   
 }
 .icons i{
@@ -92,6 +94,9 @@ body{
 }
 .icons i:hover{
   transform: scale(1.2);  
+}
+.icon-delete{
+  background-color: blue;
 }
 .icon-delete:hover{
   color: red;
@@ -105,4 +110,9 @@ body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-top: 20px;
   
+}
+.icon-edit{
+  margin-right: 10px;
+  font-size: 20px;
+  background-color: blue;
 }
